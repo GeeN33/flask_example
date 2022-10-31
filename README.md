@@ -8,7 +8,7 @@
 
 - [ ]  Скриншот браузера (раздел Network (Сеть))
 - 
-![](Screenshot_вкладку Network.png)
+![](Screenshot_Network.png)
 - 
 - [ ]  запрос: curl -X POST,GET localhost:5000/users
 - 
