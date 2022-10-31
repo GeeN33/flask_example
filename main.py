@@ -1,6 +1,5 @@
 from flask import Flask, request
 
-# Это уже знакомое callable WSGI-приложение
 app = Flask(__name__)
 
 @app.get('/users')
