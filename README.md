@@ -1,12 +1,32 @@
 # Урок 1. Веб-архитектура с Flask. Домашнее задание
 программирования на Python (ISA)
-## Критерии оценки работы:
-![](ссылка на ресурсScreenshot_curl_head.png)
-- [ ]  Выполнена нормализация данных
-- [ ]  На схеме отражены связи между таблицами и типы полей 'Screenshot_test_db'
-- [ ]  Данные загружены в БД 'test_db.backup'
-- [ ]  Данные изменены с помощью Python
-- [ ]  На GIT выложены все артефакты работы
+
+
+- [ ]  Скриншот командной строки с результатом выполнения команды curl --head https://sky.pro
+- 
+![](Screenshot_curl_head.png)
+
+- [ ]  Скриншот браузера (раздел Network (Сеть))
+- 
+![](Screenshot_вкладку Network.png)
+- 
+- [ ]  запрос: curl -X POST,GET localhost:5000/users
+- 
+![](Screenshot_GET_POST.png)
+- 
+ @app.post('/users')
+def users():
+    return 'Users', 302
+
+- [ ] запрос: curl --head -XPOST localhost:8080/users  
+- 
+![](Screenshot_Screenshot_POST_302.png)
+- 
+- [ ]  Динамические маршруты
+- 
+![](Screenshot_Динамические маршруты.png)
+
+
 
 https://github.com/GeeN33/flask_example.git
 
